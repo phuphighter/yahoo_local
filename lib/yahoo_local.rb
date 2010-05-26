@@ -7,7 +7,7 @@ directory = File.expand_path(File.dirname(__FILE__))
 
 module YahooLocal
   
-  # create config/initializers/fred.rb
+  # create config/initializers/yahoo_local.rb
   # 
   # YahooLocal.configure do |config|
   #   config.api_key = 'api_key'

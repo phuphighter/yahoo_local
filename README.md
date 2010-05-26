@@ -1,6 +1,6 @@
 # YahooLocal
 
-This is a Ruby wrapper for the Yahoo Local Search API [http://developer.yahoo.com/search/local/V3/localSearch.html](http://developer.yahoo.com/search/local/V3/localSearch.html).
+This is a Ruby wrapper for the Yahoo! Local Search API [http://developer.yahoo.com/search/local/V3/localSearch.html](http://developer.yahoo.com/search/local/V3/localSearch.html).
 
 ## Installation
 
