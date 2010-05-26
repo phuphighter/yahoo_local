@@ -23,12 +23,12 @@ Sign up for a Yahoo API key: [http://developer.yahoo.com/wsregapp/](http://devel
 
 ### Instantiate a client
 
-    >> yahoo = YahooLocal::Client.new(:api_key => 'your_api_key')
+    >> yahoo = YahooLocal::Client.new(:appid => 'your_appid')
     
 ### or configure once
 
     >> YahooLocal.configure do |config|
-    >>   config.api_key = 'your_api_key'
+    >>   config.appid = 'your_appid'
     >> end
     >> yahoo = YahooLocal::Client.new
     

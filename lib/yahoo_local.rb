@@ -10,17 +10,17 @@ module YahooLocal
   # create config/initializers/yahoo_local.rb
   # 
   # YahooLocal.configure do |config|
-  #   config.api_key = 'api_key'
+  #   config.appid = 'appid'
   # end
   # client = YahooLocal::Client.new
   #
   # or
   #
-  # YahooLocal.api_key = 'api_key'
+  # YahooLocal.appid = 'appid'
   #
   # or
   #
-  # YahooLocal::Client.new(:api_key => 'api_key')
+  # YahooLocal::Client.new(:appid => 'appid')
   
   def self.configure
     yield self
@@ -28,7 +28,7 @@ module YahooLocal
   end
 
   class << self
-    attr_accessor :api_key
+    attr_accessor :appid
   end
   
 end

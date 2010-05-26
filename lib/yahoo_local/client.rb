@@ -4,10 +4,10 @@ module YahooLocal
     include HTTParty
     base_uri "http://local.yahooapis.com/LocalSearchService/V3"
         
-    attr_reader :api_key
+    attr_reader :appid
                 
     def initialize(options={})
-      @api_key = options[:appid] || YahooLocal.api_key
+      @appid = options[:appid] || YahooLocal.appid
     end
 
     def search(options={})
@@ -17,7 +17,7 @@ module YahooLocal
     protected
     
     def default_options
-      {:appid => @api_key, :output => "json"}
+      {:appid => @appid, :output => "json"}
     end
 
   end
