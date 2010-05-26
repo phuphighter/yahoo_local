@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
      "lib/yahoo_local/client.rb",
      "pkg/yahoo-local-0.1.0.gem",
      "pkg/yahoo-local-0.1.1.gem",
+     "pkg/yahoo-local-0.1.2.gem",
      "tasks/yahoo_local_tasks.rake",
      "test/test_helper.rb",
      "test/yahoo_local_test.rb",

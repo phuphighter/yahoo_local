@@ -18,6 +18,9 @@ Sign up for a Yahoo API key: [http://developer.yahoo.com/wsregapp/](http://devel
     
 ## Usage
 
+### Gem config
+    config.gem 'yahoo-local', :lib => 'yahoo_local'
+
 ### Instantiate a client
 
     >> yahoo = YahooLocal::Client.new(:api_key => 'your_api_key')
