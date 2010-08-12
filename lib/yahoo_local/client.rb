@@ -3,6 +3,7 @@ module YahooLocal
   class Client
     include HTTParty
     base_uri "http://local.yahooapis.com/LocalSearchService/V3"
+    format :json
         
     attr_reader :appid
                 

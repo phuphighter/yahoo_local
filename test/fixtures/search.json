@@ -1,0 +1,75 @@
+
+{
+    "ResultSet":
+    {
+        "totalResultsAvailable":"1596",
+        "totalResultsReturned":"1",
+        "firstResultPosition":"1",
+        "ResultSetMapUrl":"http:\/\/maps.yahoo.com\/broadband\/?q1=Beverly+Hills%2C+CA+90210&tt=pizza&tp=1",
+        "Result":
+        {
+            "id":"20478419",
+            "Title":"California Pizza Kitchen",
+            "Address":"207 S Beverly Dr",
+            "City":"Beverly Hills",
+            "State":"CA",
+            "Phone":"(310) 275-1101",
+            "Latitude":"34.064568",
+            "Longitude":"-118.399254",
+            "Rating":
+            {
+                "AverageRating":"4.5",
+                "TotalRatings":"64",
+                "TotalReviews":"64",
+                "LastReviewDate":"1274998064",
+                "LastReviewIntro":"I had the best BBQ Chicken Salad last night. It was really good and tasted very fresh."
+            },
+            "Distance":"2.07",
+            "Url":"http:\/\/local.yahoo.com\/info-20478419-california-pizza-kitchen-beverly-hills",
+            "ClickUrl":"http:\/\/local.yahoo.com\/info-20478419-california-pizza-kitchen-beverly-hills",
+            "MapUrl":"http:\/\/maps.yahoo.com\/maps_result?q1=207+S+Beverly+Dr+Beverly+Hills+CA&gid1=20478419",
+            "BusinessUrl":"http:\/\/www.cpk.com\/",
+            "BusinessClickUrl":"http:\/\/www.cpk.com\/",
+            "Categories":
+            {
+                "Category":
+                [
+                    {
+                        "id":"96926057",
+                        "content":"All Bars,
+                         Pubs,
+                         & Clubs"
+                    },
+                    {
+                        "id":"96926155",
+                        "content":"Californian Restaurants"
+                    },
+                    {
+                        "id":"96926190",
+                        "content":"Italian Restaurants"
+                    },
+                    {
+                        "id":"96926225",
+                        "content":"Salad Restaurants"
+                    },
+                    {
+                        "id":"96926234",
+                        "content":"Carry Out & Take Out"
+                    },
+                    {
+                        "id":"96926236",
+                        "content":"Restaurants"
+                    },
+                    {
+                        "id":"96926238",
+                        "content":"Sandwiches"
+                    },
+                    {
+                        "id":"96926243",
+                        "content":"Pizza"
+                    }
+                ]
+            }
+        }
+    }
+}
